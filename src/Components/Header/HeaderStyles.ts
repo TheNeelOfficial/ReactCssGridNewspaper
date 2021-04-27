@@ -3,6 +3,9 @@ import styled from 'styled-components';
 // importing media devices
 import { device } from '../../utils/devices';
 
+// importing fonts
+import * as fonts from '../../utils/fonts';
+
 export const HeaderContainer = styled.header`
   // text-align: center;
 `;
@@ -11,7 +14,7 @@ export const Title = styled.h1`
   text-align: center;
   text-transform: uppercase;
   font-size: 2em;
-  font-family: 'Playfair Display', serif;
+  font-family: ${fonts.TitleFont};
   font-weight: 900;
   line-height: 0.5em;
   @media ${device.laptop} {
@@ -26,7 +29,7 @@ export const SubTitle = styled.aside`
   border-width: 2px 0;
   letter-spacing: 1px;
   margin: 1.5rem 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: ${fonts.ParaFont};
   font-weight: 400;
   font-size: 0.5em;
   @media ${device.laptop} {
