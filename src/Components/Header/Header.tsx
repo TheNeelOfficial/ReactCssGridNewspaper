@@ -10,13 +10,13 @@ function Header(){
     return(
         <HeaderContainer>
             <Title>
-                Neel Baggam
+                The React News
             </Title>
             <SubTitle>
                 <SubTitleContents>
-                    <SubTitleElement>{getCurrentDate()}</SubTitleElement>
-                    <SubTitleElement>Fullstack Developer</SubTitleElement>
-                    <SubTitleElement>Melbourne</SubTitleElement>
+                    <SubTitleElement></SubTitleElement>
+                    <SubTitleElement>Melbourne {getCurrentDate()}</SubTitleElement>
+                    <SubTitleElement>$0.00</SubTitleElement>
                 </SubTitleContents>
             </SubTitle>
         </HeaderContainer>

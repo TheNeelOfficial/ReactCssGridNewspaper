@@ -29,7 +29,7 @@ export const SubTitle = styled.aside`
   border-width: 2px 0;
   letter-spacing: 1px;
   margin: 1.5rem 0;
-  font-family: ${fonts.ParaFont};
+  font-family: ${fonts.TitleFont};
   font-weight: 400;
   font-size: 0.5em;
   @media ${device.laptop} {
