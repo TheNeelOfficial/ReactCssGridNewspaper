@@ -1,10 +1,7 @@
 import React from 'react';
 
-import Pikup from './Pikup/Pikup';
-
 // importing styles
-import {Grid} from './WorkStyles';
-import neel from '../About/assets/neel.png';
+import {Grid} from './ArticlesStyles';
 
 function Work(){
     return(

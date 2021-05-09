@@ -14,7 +14,7 @@ function Header(){
             </Title>
             <SubTitle>
                 <SubTitleContents>
-                    <SubTitleElement></SubTitleElement>
+                    <SubTitleElement>TheNeelOfficial</SubTitleElement>
                     <SubTitleElement>Melbourne {getCurrentDate()}</SubTitleElement>
                     <SubTitleElement>$0.00</SubTitleElement>
                 </SubTitleContents>
